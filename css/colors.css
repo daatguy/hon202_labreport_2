@@ -4,9 +4,12 @@ body {
 }
 
 .card {
+    color: #cdc6a8;
     background-color: #242320;
+    text-align: center;
 }
 
 a {
     color: #8e9893;
+
 }

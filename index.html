@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -23,10 +23,26 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/colors.css">
 
+  <!-- OverlayScrollbars Plugin CSS -->
+  <link type="text/css" href="lib/OverlayScrollbars-1.13.1/css/OverlayScrollbars.css" rel="stylesheet"/>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- JQuery script setup -->
+  <script type="text/javascript" src="lib/jquery/jquery-3.6.0.min.js"></script>
+
+  <!-- OverlayScrollbars Plugin JS -->
+  <script type="text/javascript" src="lib/OverlayScrollbars-1.13.1/js/OverlayScrollbars.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+      $(function() {
+          //The passed argument has to be at least a empty object or a object with your desired options
+          $('body').overlayScrollbars({ });
+      });
+    });
+  </script>
 </head>
 <body>
 
@@ -34,13 +50,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
+      <div class="offset-by-two eight columns" style="margin-top: 25%">
         <h4>Basic Page</h4>
         <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
       </div>
-      <div class="one column" style="margin-top: 50px">
-          <p>Test test</p>
-      </div>
+    </div>
+    <div class="row card" style="margin-top: 25%">
+        <h1 style="margin-top: 24px">Test test</h1>
     </div>
   </div>
 
