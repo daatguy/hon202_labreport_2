@@ -3,6 +3,11 @@ body {
     background-color: #131311;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .img-container {
     display: block;
     margin-left: auto;

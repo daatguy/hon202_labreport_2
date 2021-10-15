@@ -55,8 +55,8 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div style="width: calc(100% + 28px); height: 500px; overflow: hidden; margin-left: -14px">
-    <div class='tableauPlaceholder' id='viz1634261980965' style='position: relative; overflow: hidden; margin-left: 0px; margin-top: -16px; margin-right: 0px; margin-bottom:-41px;'>
+  <div style="width: calc(100%); height: 500px; overflow: hidden;">
+    <div class='tableauPlaceholder' id='viz1634261980965' style='width: calc(100% + 28px); position: relative; overflow: hidden; margin-left: -14px; margin-top: -16px; margin-right: -14px; margin-bottom:-41px;'>
       <noscript>
         <a href='#'>
           <img alt='Map Dashboard' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;76&#47;76SKJ9YJ9&#47;1_rss.png' style='border: none' />
@@ -81,13 +81,14 @@
       var divElement = document.getElementById('viz1634261980965');
       var vizElement = divElement.getElementsByTagName('object')[0];
       if ( divElement.offsetWidth > 800 ) {
-        vizElement.style.width='100%';
+        vizElement.style.width='calc(100% + 28px)';
         vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
       } else if ( divElement.offsetWidth > 500 ) {
-        vizElement.style.width='100%';
+        vizElement.style.width='calc(100% + 28px)';
         vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
       } else {
-        vizElement.style.width='100%';vizElement.style.height='727px';
+        vizElement.style.width='calc(100% + 28px)';
+        vizElement.style.height='727px';
       }
       var scriptElement = document.createElement('script');
       scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
@@ -193,8 +194,8 @@
       </div>
     </div>
   </div>
-  <div style="width: calc(100% + 28px); height: 66%; margin-left: -14px; margin-right: -14px; margin-top: -11px; overflow: hidden">
-    <div class='tableauPlaceholder' id='viz1634281817168' style='position: relative; overflow: hidden; margin-left: 0px; margin-top: -16px; margin-right: 0px; margin-bottom:-41px;'>
+  <div style="width: 100%; height: 66%; margin-top: -11px; overflow: hidden">
+    <div class='tableauPlaceholder' id='viz1634281817168' style='position: relative; overflow: hidden; margin-left: -14px; margin-top: -16px; margin-right: -14pxpx; margin-bottom:-41px;'>
       <noscript>
         <a href='#'><img alt='Map Dash ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifyTop1000intheMediaTheTweetsMap&#47;MapDash&#47;1_rss.png' style='border: none' /></a>
       </noscript>
@@ -218,13 +219,14 @@
     var divElement = document.getElementById('viz1634281817168');
     var vizElement = divElement.getElementsByTagName('object')[0];
      if ( divElement.offsetWidth > 800 ) {
-       vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.5)+'px';
+       vizElement.style.width='calc(100% + 28px)';
+       vizElement.style.height=(divElement.offsetWidth*0.5)+'px';
      } else if (
        divElement.offsetWidth > 500 ) {
-       vizElement.style.width='100%';
+       vizElement.style.width='calc(100% + 28px)';
        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
      } else {
-       vizElement.style.width='100%';
+       vizElement.style.width='calc(100% + 28px)';
        vizElement.style.height='727px';
      }
      var scriptElement = document.createElement('script');
