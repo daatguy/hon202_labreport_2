@@ -9,6 +9,24 @@ body {
     text-align: center;
 }
 
+.custom-scrollbar > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle {
+    max-height: 35%;
+    min-height: 25px;
+    min-width: 12px;
+    max-width: 2%;
+    right: 5px;
+    left: auto;
+    background: #242320;
+}
+
+.custom-scrollbar > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle:hover {
+    background: #2f2c25;
+}
+
+.custom-scrollbar > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle.active {
+    background: #5c5a49;
+}
+
 a {
     color: #8e9893;
 
