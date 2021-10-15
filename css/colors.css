@@ -3,9 +3,33 @@ body {
     background-color: #131311;
 }
 
+.img-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55%;
+    height: auto;
+}
+
+img {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 24px rgba(0,0,0,0.3);
+}
+
+img.no-shadow {
+    box-shadow: 0px 0px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 .card {
     color: #cdc6a8;
-    background-color: #242320;
+    background-color: #191916;
     text-align: center;
 }
 
@@ -25,6 +49,15 @@ body {
 
 .custom-scrollbar > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle.active {
     background: #5c5a49;
+}
+
+p {
+    text-indent: 2em;
+}
+
+li {
+    font-weight: bold;
+    text-indent: 6em;
 }
 
 a {
